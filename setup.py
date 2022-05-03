@@ -12,7 +12,7 @@ print("setup.py prefix:", sys.prefix)
 
 setup(
     name="cpp-include-lint",
-    version="0.1",
+    version="0.2",
 
     # Requires python3.7
     python_requires=">=3.7",

@@ -208,7 +208,7 @@ def main():
                         action="store_const", const=True, default=False,
                         help="just print the files that would have been linted")
     parser.add_argument("-f", "--filter", dest="filter",
-                        default=".*\.(h|cpp|tpp)", metavar="REGEX",
+                        default=".*\.(h|hpp|c|cpp|tpp)", metavar="REGEX",
                         help="filter files to lint using the given regular expression. "
                              "The default one is: \".*\.(h|hpp|c|cpp|tpp)\"")
     parser.add_argument("-q", "--quiet", dest="quiet",
